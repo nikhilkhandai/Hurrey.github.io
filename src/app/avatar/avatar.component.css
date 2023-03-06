@@ -1,0 +1,50 @@
+.form-box{
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+    padding: 80px 60px 70px;
+    text-align: center;
+}
+
+.fcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+button{
+    box-sizing: border-box;
+color:white ;
+position: absolute;
+left: 36%;
+right: 37%;
+top: 100%;
+bottom: -9%;
+background: #000000;
+border-radius: 43.4766px;
+border-color: #7B72CC #DC0078 #3871D6;
+  }
+
+  h2{
+    font-size:3vh;
+  }
+
+  h1{
+    font-weight: 700;
+  }
+
+ 
+
+  .show{
+    border-color: #7B72CC #DC0078 #3871D6;
+  }
+
+  .notShow{
+    border-color: black;
+  }
+  

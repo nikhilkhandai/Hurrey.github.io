@@ -1,0 +1,38 @@
+
+.button1{
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 40%;
+    bottom: 53%;
+    
+   
+    border-radius: 52.5px;
+    background: #000000;
+    border-color: #7B72CC #DC0078 #3871D6;
+}
+
+.button2{
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 50%;
+    bottom: 43%;
+    
+   
+    border-radius: 52.5px;
+    background: #000000;
+    border-color: #7B72CC #DC0078 #3871D6;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    left: 46%;
+    top: 30%;
+}
+

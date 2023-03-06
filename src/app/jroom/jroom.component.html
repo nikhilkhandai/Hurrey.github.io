@@ -1,0 +1,26 @@
+<h1>{{yourName}}!</h1>
+<div class="container">
+    <div class="form-box">
+        <div class="name-field">
+        <h3>Type Room Code Below</h3>
+        </div><br><br><br>
+  <form #userForm="ngForm">
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <input required
+        class="form-control"
+          type="number"
+          #box
+          placeholder="-Type here-"
+          id="inputNumber"
+          name="name"
+          aria-describedby="nameHelpInline"
+        />
+      </div>
+    </div>
+  <br>
+  <br>
+  <br>
+     
+      <button type="submit" [disabled]="userForm.invalid">Next</button>
+  

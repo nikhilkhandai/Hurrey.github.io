@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="form-box">
+        <div class="name-field">
+        <h1>What is your name?</h1>
+        </div><br>
+  <form #userForm="ngForm">
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <input required
+        class="form-control"
+          type="text"
+          #box
+          placeholder="-Type here-"
+          ngModel
+          id="inputName"
+          name="name"
+          aria-describedby="nameHelpInline"
+        />
+      </div>
+    </div>
+  <br>
+  <br>
+  <br>
+     
+      <button type="submit" (click)="goNext(box.value)" [disabled]="userForm.invalid">Next</button>
+  </form>
+  </div>
+  </div>

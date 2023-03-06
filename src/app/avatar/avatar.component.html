@@ -1,0 +1,27 @@
+
+<div class="container">
+    <div class="form-box">
+        <h1>Hello {{inputName}}!</h1>
+<h2>Choose your avatar</h2><br><br>
+ <div class="fcontainer">
+     <div class="fitem1" (click)="imageIndex=1">
+        <img src="assets/Images/avatar1.png">
+     </div>
+     <div class="fitem2" (click)="imageIndex=2" >
+     
+        <img src="assets/Images/avatar2.png">
+     </div>
+     <div class="fitem3" (click)="imageIndex=3">
+        <img src="assets/Images/avatar3.png">
+     </div>
+     <div class="fitem4" (click)="imageIndex=4">
+        <img src="assets/Images/avatar4.png">
+     </div>
+     <div class="fitem5" (click)="imageIndex=5">
+        <img src="assets/Images/avatar5.png">
+     </div>
+ </div>
+ <button type="submit" (click)="goNext()" [disabled]="">Next</button>
+    </div>
+   
+</div>
